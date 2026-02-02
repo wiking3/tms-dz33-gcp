@@ -9,7 +9,8 @@ Creating gs://tmsdz33/...
 
 <h5> 2й шаг) Проверяем у кого есть доступ к GCP S3  Bucket  </h5>
 egor@cloudshell:~ (it-server-344307)$ <strong> gcloud storage buckets list   </strong>
----
+
+<pre>
 acl:
 - entity: project-owners-52615052819
   projectTeam:
@@ -30,6 +31,7 @@ soft_delete_policy:
 storage_url: gs://tmsdz33/
 uniform_bucket_level_access: false
 update_time: 2026-02-02T13:26:22+0000
+</pre>pre>
 
 
 Предоставляем всем на чтение доступ на 1 файл -    gsutil acl ch -u AllUsers:R gs://tmsdz33/1.txt 
