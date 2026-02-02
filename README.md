@@ -31,3 +31,9 @@ storage_url: gs://tmsdz33/
 uniform_bucket_level_access: false
 update_time: 2026-02-02T13:26:22+0000
 
+
+Предоставляем всем на чтение доступ на 1 файл -    gsutil acl ch -u AllUsers:R gs://tmsdz33/1.txt 
+<img width="749" height="37" alt="image" src="https://github.com/user-attachments/assets/831389c9-803f-4839-8340-6471f5e2ad23" />
+
+
+
