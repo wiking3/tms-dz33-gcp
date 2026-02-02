@@ -2,12 +2,12 @@
 
 <h5> 1й шаг) Создаем S3 Bucket  </h5>
 
-egor@cloudshell:~ (it-server-344)$ gcloud storage buckets create gs://tmsdz33     --location=EUROPE-WEST2     --default-storage-class=STANDARD                                                                                
+$ gcloud storage buckets create gs://tmsdz33     --location=EUROPE-WEST2     --default-storage-class=STANDARD                                                                                
 Creating gs://tmsdz33/...
 
 <img width="1255" height="50" alt="image" src="https://github.com/user-attachments/assets/22d9ac71-4add-4b6a-9449-6abb1b1b9b17" />
 
-<h5> 2й шаг) Проверяем у кого есть доступ к GCP S3  Bucket  </h5>
+<h5> 2й шаг) Проверяем у кого есть доступ к GCP S3  Bucket   :   </h5>   <br>
 <kbd style="background-color: #eee; padding: 2px 4px; border-radius: 3px;"> egor@cloudshell:~ (it-server-344307)$  gcloud storage buckets list </kbd>
 
 <pre>
@@ -31,7 +31,7 @@ soft_delete_policy:
 storage_url: gs://tmsdz33/
 uniform_bucket_level_access: false
 update_time: 2026-02-02T13:26:22+0000
-</pre>pre>
+</pre>
 
 
 Предоставляем всем на чтение доступ на 1 файл -    gsutil acl ch -u AllUsers:R gs://tmsdz33/1.txt 
