@@ -6,3 +6,28 @@ egor@cloudshell:~ (it-server-344)$ gcloud storage buckets create gs://tmsdz33   
 Creating gs://tmsdz33/...
 
 <img width="1255" height="50" alt="image" src="https://github.com/user-attachments/assets/22d9ac71-4add-4b6a-9449-6abb1b1b9b17" />
+
+<h5> 2й шаг) Проверяем у кого есть доступ к GCP S3  Bucket  </h5>
+egor@cloudshell:~ (it-server-344307)$ <strong> gcloud storage buckets list   </strong>
+---
+acl:
+- entity: project-owners-52615052819
+  projectTeam:
+    projectNumber: '52615052819'
+    team: owners
+  role: OWNER
+default_storage_class: STANDARD
+generation: 1770038782129218882
+location: EUROPE-WEST2
+location_type: region
+metageneration: 1
+name: tmsdz33
+public_access_prevention: inherited
+satisfies_pzs: true
+soft_delete_policy:
+  effectiveTime: '2026-02-02T13:26:22.487000+00:00'
+  retentionDurationSeconds: '604800'
+storage_url: gs://tmsdz33/
+uniform_bucket_level_access: false
+update_time: 2026-02-02T13:26:22+0000
+
