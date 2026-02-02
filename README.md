@@ -1,3 +1,11 @@
+<h2 dir="auto"><span style="color: #808000;">Домашняя работа 33 TMS по теме Google Cloud S3 Bucket + IAM.</span></h2>
+<div class="markdown-heading" dir="auto">
+<h3 class="heading-element" dir="auto" tabindex="-1">1й шаг) Создаем S3 Bucket</h3>
+<a id="user-content--1й-шаг-создаем-s3-bucket--" class="anchor" href="https://github.com/wiking3/tms-dz33-gcp/blob/main/README.md#-1%D0%B9-%D1%88%D0%B0%D0%B3-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B5%D0%BC-s3-bucket--"></a></div>
+<h4 dir="auto"><span style="color: #008000;">$ gcloud storage buckets create gs://tmsdz33 --location=EUROPE-WEST2 --default-storage-class=STANDARD</span><br /><span style="color: #008000;">Creating gs://tmsdz33/..</span></h4>
+
+
+
 Домашняя работа 33 TMS по теме Google Cloud S3 Bucket + IAM.
 
 <h5> 1й шаг) Создаем S3 Bucket  </h5>
