@@ -8,7 +8,7 @@ Creating gs://tmsdz33/...
 <img width="1255" height="50" alt="image" src="https://github.com/user-attachments/assets/22d9ac71-4add-4b6a-9449-6abb1b1b9b17" />
 
 <h5> 2й шаг) Проверяем у кого есть доступ к GCP S3  Bucket  </h5>
-egor@cloudshell:~ (it-server-344307)$ <strong> gcloud storage buckets list   </strong>
+<kbd style="background-color: #eee; padding: 2px 4px; border-radius: 3px;"> egor@cloudshell:~ (it-server-344307)$  gcloud storage buckets list </kbd>
 
 <pre>
 acl:
