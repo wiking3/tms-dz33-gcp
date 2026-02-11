@@ -13,14 +13,19 @@
 <img width="960" height="411" alt="image" src="https://github.com/user-attachments/assets/84b72d4c-15b7-451b-862e-d2da58bebeac" />
 
 
-![][image3]  
-![][image4]
+<img width="910" height="405" alt="image" src="https://github.com/user-attachments/assets/8fc4d79c-d6a9-4cf1-b424-08a25a1fc808" />
+ 
+<img width="1184" height="550" alt="image" src="https://github.com/user-attachments/assets/ae944cb6-c4ad-445b-8742-2450fc7799ec" />
 
-![][image5]
 
-![][image6]
+<img width="953" height="632" alt="image" src="https://github.com/user-attachments/assets/84c9abe9-696c-49e9-bff2-e6aa4c3398e6" />
 
-![][image7]
+
+<img width="859" height="693" alt="image" src="https://github.com/user-attachments/assets/4d53bf27-27ce-46c5-b05b-5d8c1a6ea7dc" />
+
+
+<img width="900" height="719" alt="image" src="https://github.com/user-attachments/assets/99a443cb-c0d8-425f-ad10-a1f8ebd48fbd" />
+
 
 **2\) Проверяем  атрибуты нашего бакета  :** 
 
