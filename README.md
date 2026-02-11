@@ -77,13 +77,14 @@ Creating gs://tmsdz331/…
 <img width="836" height="134" alt="image" src="https://github.com/user-attachments/assets/5a431ccf-2690-43cd-98c9-d5920ee07c89" />
 
 
-**4\) Проверяем доступ из Интернета, его нет так как при создании указали бакет без доступа из Интернета (без public доступа).**  
-![][image17]
+### 4\) Проверяем доступ из Интернета, его нет так как при создании указали бакет без доступа из Интернета (без public доступа).**  
+<img width="1482" height="191" alt="image" src="https://github.com/user-attachments/assets/3bbd2bf9-17e5-4365-8274-247e27b1cf4b" />
 
-**5\) Делаем доступ по email :**
+### 5\) Делаем доступ по email :**
 
-   **$  gcloud storage buckets add-iam-policy-binding gs://tmsdz33   \--member="user:egor.belousov@altezza.org"   \--role="roles/storage.objectAdmin"**   
-![][image18]  
+```    **$  gcloud storage buckets add-iam-policy-binding gs://tmsdz33   \--member="user:egor.belousov@altezza.org"   \--role="roles/storage.objectAdmin"**  ```   
+<img width="1445" height="278" alt="image" src="https://github.com/user-attachments/assets/b9a6a553-2e02-4e80-94fa-7a9cc4f946ae" />
+  
 ![][image19]  
 
      **gcloud auth login**            // авторизуемся  
