@@ -46,7 +46,7 @@
 
 
 
-**3\) Подключаемся к google cloud s3 bucket с  ubuntu :** 
+***3\) Подключаемся к google cloud s3 bucket с  ubuntu :** 
 
 \# **snap install google-cloud-cli \--classic**   
 \# **gcloud auth login**                                 // выдет https-строку-запрос-на-токен в браузере авторизуемся под своей учеткой   (**gcloud auth login –no-launch-browser)**   
