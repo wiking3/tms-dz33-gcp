@@ -29,11 +29,11 @@
 
 **2\) Проверяем  атрибуты нашего бакета  :** 
 
-            **$  gcloud storage buckets describe gs://tmsdz3** 
+``` **$  gcloud storage buckets describe gs://tmsdz3**                ```
 
 <img width="812" height="402" alt="image" src="https://github.com/user-attachments/assets/11cce220-d139-48e8-924e-205bf3c04fdf" />
  
-               **$  gcloud storage buckets describe gs://tmsdz33 \--format="json(name,location,storageClass)"**
+``` **$  gcloud storage buckets describe gs://tmsdz33 \--format="json(name,location,storageClass)"**  ```
 
 <img width="1210" height="112" alt="image" src="https://github.com/user-attachments/assets/0d90138a-79ed-48b8-894b-488e5eb6b32a" />
 
