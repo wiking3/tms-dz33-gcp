@@ -42,31 +42,37 @@
 <img width="751" height="705" alt="image" src="https://github.com/user-attachments/assets/41a6654c-908e-4685-8097-05a0f72b8169" />
 
 
+
 **3\) Подключаемся к google cloud s3 bucket с  ubuntu :** 
 
 \# **snap install google-cloud-cli \--classic**   
-\# **gcloud auth login**                                                                // выдет https-строку-запрос-на-токен   (**gcloud auth login –no-launch-browser)**   
-**![][image11]**
+\# **gcloud auth login**                                 // выдет https-строку-запрос-на-токен в браузере авторизуемся под своей учеткой   (**gcloud auth login –no-launch-browser)**   
+
+<img width="1173" height="214" alt="image" src="https://github.com/user-attachments/assets/7a209f48-541e-4061-8e95-32cbc6d6ba25" />
 
 \# **gcloud config set project it-server-344307**                     // где  it-server-344307 \-  ID проекта).
+<img width="1246" height="65" alt="image" src="https://github.com/user-attachments/assets/412afd80-6e30-41d5-967f-318b7ff7eda1" />
 
-**![][image12]**  
+ 
 **\#gcloud storage buckets create gs://tmsdz331 \--location="europe-west2"**  
 Creating gs://tmsdz331/…
 
-![][image13]
+<img width="1398" height="225" alt="image" src="https://github.com/user-attachments/assets/69c23887-fc6c-4e1d-bfa2-b81a4fb25459" />
+
 
 \# **gcloud storage cp \* gs://tmsdz33**                                     // копируем файлы в бакет
 
-![][image14]
+
 
 Проверяем в GUI:  
-![][image15]
+<img width="1407" height="475" alt="image" src="https://github.com/user-attachments/assets/4643f9c3-7b6f-4252-9a75-982c412fc0ad" />
+
 
 **Копируем файлы во 2й бакет**  
       **\#gcloud storage cp \* gs://tmsdz331**
 
-![][image16]
+<img width="836" height="134" alt="image" src="https://github.com/user-attachments/assets/5a431ccf-2690-43cd-98c9-d5920ee07c89" />
+
 
 **4\) Проверяем доступ из Интернета, его нет так как при создании указали бакет без доступа из Интернета (без public доступа).**  
 ![][image17]
