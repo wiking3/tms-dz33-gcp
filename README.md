@@ -3,7 +3,7 @@
    
 **1\) Создаем S3 GCP Bucket   (cli-вариант)**
 
- '''  $ **gcloud storage buckets create gs://tmsdz33     \--location=EUROPE-WEST2     \--default-storage-class=STANDARD**   '''                                                                                
+\'''  $ **gcloud storage buckets create gs://tmsdz33     \--location=EUROPE-WEST2     \--default-storage-class=STANDARD**     \'''                                                                             
 
  <img width="1389" height="49" alt="image" src="https://github.com/user-attachments/assets/13611526-70e2-4677-b864-ce6d22d7dfbd" />
     
