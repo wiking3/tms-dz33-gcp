@@ -5,7 +5,7 @@
 
      $ **gcloud storage buckets create gs://tmsdz33     \--location=EUROPE-WEST2     \--default-storage-class=STANDARD**                                                                                  
     
-![][image1]
+
 
 **Создаем bucket   (gui-вариант) :** 
 
