@@ -30,7 +30,7 @@
 
 
 
-**2\) Проверяем  атрибуты нашего бакета  :** 
+### 2\) Проверяем  атрибуты нашего бакета  :** 
 
 ``` **$  gcloud storage buckets describe gs://tmsdz3**                ```
 
@@ -41,12 +41,12 @@
 <img width="1210" height="112" alt="image" src="https://github.com/user-attachments/assets/0d90138a-79ed-48b8-894b-488e5eb6b32a" />
 
 
-**2.1) Проверяем cвойства бакета через GUI**   
+### 2.1) Проверяем cвойства бакета через GUI**   
 <img width="751" height="705" alt="image" src="https://github.com/user-attachments/assets/41a6654c-908e-4685-8097-05a0f72b8169" />
 
 
 
-***3\) Подключаемся к google cloud s3 bucket с  ubuntu :** 
+### 3\) Подключаемся к google cloud s3 bucket с  ubuntu :** 
 
 \# **snap install google-cloud-cli \--classic**   
 \# **gcloud auth login**                                 // выдет https-строку-запрос-на-токен в браузере авторизуемся под своей учеткой   (**gcloud auth login –no-launch-browser)**   
