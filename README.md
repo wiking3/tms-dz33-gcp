@@ -48,19 +48,19 @@
 
 ### 3\) Подключаемся к google cloud s3 bucket с  ubuntu :** 
 
-\# **snap install google-cloud-cli \--classic**   
-\# **gcloud auth login**                                 // выдет https-строку-запрос-на-токен в браузере авторизуемся под своей учеткой   (**gcloud auth login –no-launch-browser)**   
+``` **snap install google-cloud-cli \--classic**         ```
+``` **gcloud auth login**                                ```  // выдет https-строку-запрос-на-токен в браузере авторизуемся под своей учеткой   (**gcloud auth login –no-launch-browser)**   
 
 <img width="1173" height="214" alt="image" src="https://github.com/user-attachments/assets/7a209f48-541e-4061-8e95-32cbc6d6ba25" />
 
 
 
 
-\# **gcloud config set project it-server-344307**                     // где  it-server-344307 \-  ID проекта).
+``` **gcloud config set project it-server-344307**        ```          // где  it-server-344307 \-  ID проекта).
 <img width="1246" height="65" alt="image" src="https://github.com/user-attachments/assets/412afd80-6e30-41d5-967f-318b7ff7eda1" />
 
 
-
+<br>
  
 **\#gcloud storage buckets create gs://tmsdz331 \--location="europe-west2"**  
 Creating gs://tmsdz331/…
