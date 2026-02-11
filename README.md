@@ -27,6 +27,9 @@
 <img width="900" height="719" alt="image" src="https://github.com/user-attachments/assets/99a443cb-c0d8-425f-ad10-a1f8ebd48fbd" />
 
 
+
+
+
 **2\) Проверяем  атрибуты нашего бакета  :** 
 
 ``` **$  gcloud storage buckets describe gs://tmsdz3**                ```
