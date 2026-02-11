@@ -104,9 +104,9 @@ Creating gs://tmsdz331/…
 
 Генерируем токен для доступа (как служба) : 
 
- **gcloud iam service-accounts keys create key.json   \--iam-account=gitlab-runner-sa@it-server-344307.iam.gserviceaccount.com**  
+ gcloud iam service-accounts keys create key.json   \--iam-account=gitlab-runner-sa@it-server-344307.iam.gserviceaccount.com**  
  created key \[1c1e5cad0bfe780800b579c73dc60971f0810611\] of type \[json\] as \[key.json\] for \[gitlab-runner-sa@it-server-344307.iam.gserviceaccount.com\]         ![][image22]  
-**gcloud projects add-iam-policy-binding it-server-344307 \--member="serviceAccount:gitlab-runner-sa@it-server-344307.iam.gserviceaccount.com" \--role="roles/storage.admin"**  
+ gcloud projects add-iam-policy-binding it-server-344307 \--member="serviceAccount:gitlab-runner-sa@it-server-344307.iam.gserviceaccount.com" \--role="roles/storage.admin"**  
 ![][image23]
 
 **Токен создали :**   
