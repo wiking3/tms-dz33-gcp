@@ -1,14 +1,14 @@
 #   **Домашняя работа 33 TMS по теме Google Cloud S3 Bucket \+ IAM.**
 
    
-**1\) Создаем S3 GCP Bucket   (cli-вариант)**
+### 1\) Создаем S3 GCP Bucket   (cli-вариант)**
 
 ```  $ **gcloud storage buckets create gs://tmsdz33     \--location=EUROPE-WEST2     \--default-storage-class=STANDARD**     ```                                                                            
 
  <img width="1389" height="49" alt="image" src="https://github.com/user-attachments/assets/13611526-70e2-4677-b864-ce6d22d7dfbd" />
     
 
-**1.1) Создаем bucket   (gui-вариант) :** 
+### 1.1) Создаем bucket   (gui-вариант) :** 
 
 <img width="960" height="411" alt="image" src="https://github.com/user-attachments/assets/84b72d4c-15b7-451b-862e-d2da58bebeac" />
 
@@ -28,7 +28,7 @@
 
 
 
-
+<br>
 
 ### 2\) Проверяем  атрибуты нашего бакета  :** 
 
