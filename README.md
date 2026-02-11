@@ -4,7 +4,9 @@
 **1\) Создаем S3 GCP Bucket   (cli-вариант)**
 
      $ **gcloud storage buckets create gs://tmsdz33     \--location=EUROPE-WEST2     \--default-storage-class=STANDARD**                                                                                  
-    <img width="1386" height="55" alt="image" src="https://github.com/user-attachments/assets/786a5728-ca62-4da2-9f2b-1cb509ecd393" />
+
+ <img width="1389" height="49" alt="image" src="https://github.com/user-attachments/assets/13611526-70e2-4677-b864-ce6d22d7dfbd" />
+    
 
 **1.1) Создаем bucket   (gui-вариант) :** 
 
