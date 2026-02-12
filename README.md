@@ -8,7 +8,7 @@
  <img width="1389" height="49" alt="image" src="https://github.com/user-attachments/assets/13611526-70e2-4677-b864-ce6d22d7dfbd" />
     
 
-### 1.1) Создаем bucket   (gui-вариант) :** 
+### 1.1) Создаем bucket   (gui-вариант) : 
 
 <img width="960" height="411" alt="image" src="https://github.com/user-attachments/assets/84b72d4c-15b7-451b-862e-d2da58bebeac" />
 
