@@ -30,7 +30,7 @@
 
 <br>
 
-### 2\) Проверяем  атрибуты нашего бакета  :** 
+### 2\) Проверяем  атрибуты нашего бакета  : 
 
 ``` **$  gcloud storage buckets describe gs://tmsdz3**                ```
 
@@ -41,12 +41,12 @@
 <img width="1210" height="112" alt="image" src="https://github.com/user-attachments/assets/0d90138a-79ed-48b8-894b-488e5eb6b32a" />
 
 
-### 2.1) Проверяем cвойства бакета через GUI**   
+### 2.1) Проверяем cвойства бакета через GUI
 <img width="751" height="705" alt="image" src="https://github.com/user-attachments/assets/41a6654c-908e-4685-8097-05a0f72b8169" />
 
 
 
-### 3\) Подключаемся к google cloud s3 bucket с  ubuntu :** 
+### 3\) Подключаемся к google cloud s3 bucket с  ubuntu : 
 
 ``` **snap install google-cloud-cli \--classic**         ```
 ``` **gcloud auth login**                                ```  // выдет https-строку-запрос-на-токен в браузере авторизуемся под своей учеткой   (**gcloud auth login –no-launch-browser)**   
@@ -56,13 +56,13 @@
 
 
 
-``` **gcloud config set project it-server-344307**        ```          // где  it-server-344307 \-  ID проекта).
+``` gcloud config set project it-server-344307        ```          // где  it-server-344307 \-  ID проекта).
 <img width="1246" height="65" alt="image" src="https://github.com/user-attachments/assets/412afd80-6e30-41d5-967f-318b7ff7eda1" />
 
 
 <br>
  
-**\#gcloud storage buckets create gs://tmsdz331 \--location="europe-west2"**  
+``` $gcloud storage buckets create gs://tmsdz331 \--location="europe-west2"   ```
 Creating gs://tmsdz331/…
 
 <img width="1398" height="225" alt="image" src="https://github.com/user-attachments/assets/69c23887-fc6c-4e1d-bfa2-b81a4fb25459" />
