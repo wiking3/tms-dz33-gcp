@@ -1,7 +1,7 @@
 #   **Домашняя работа 33 TMS по теме Google Cloud S3 Bucket \+ IAM.**
 
    
-### 1\) Создаем S3 GCP Bucket   (cli-вариант)**
+### 1\) Создаем S3 GCP Bucket   (cli-вариант)
 
 ```  $ gcloud storage buckets create gs://tmsdz33     \--location=EUROPE-WEST2     \--default-storage-class=STANDARD     ```                                                                            
 
